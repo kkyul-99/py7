@@ -2,5 +2,5 @@
 num1 = int(input("국어 점수를 입력하세요."))
 num2 = int(input("영어 점수를 입력하세요."))
 num3 = int(input("수학 점수를 입력하세요."))
-print("합계: ",num1+num2+num3)
+print("합계: ",num1+num2+num3) # 쉼표 구분자를 사용하면 타입이 달라도 출력이 됨.
 print("평균: ",(num1+num2+num3)/3)
