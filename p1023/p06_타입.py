@@ -12,4 +12,3 @@ print(type(num7)) # type() 변수의 타입을 확인할 수 있음.
 
 num8 = None
 # print(num+num2) # 문자열, 숫자는 덧셈이 안됨.
-
