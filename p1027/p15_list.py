@@ -18,7 +18,7 @@ stuscore = ['홍길동', 100, 100]
 print(stuscore)
 
 ### 리스트 데이터 추가 - append, insert
-# appen - 제일 뒤 추가
+# append - 제일 뒤 추가
 stuscore.append(100) 
 print(stuscore)
 # 1번째방에 값 5를 추가
