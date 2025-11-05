@@ -9,4 +9,4 @@ else:
     print("없음")    
 
 # 현재위치에 존재하는 모든 파일을 출력 - list
-# print(os.listdir("c:/down/"))
+print(os.listdir("c:/down/"))

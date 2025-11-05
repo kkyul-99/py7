@@ -5,8 +5,13 @@ stu_list = [
         'total':270,'avg':90.00,'rank':0},
     {'stuno':10103,'name':'이순신','kor':100,'eng':100,'math':100,\
         'total':300,'avg':100.00,'rank':0},
-]
+] 
+
+str1 = "{'stuno':10101,'name':'홍길동','kor':80,'eng':80,'math':80,\
+'total':240,'avg':80.00,'rank':0}"
+
+print(str1)
 
 import ast
-str_dict = ast.literal.eval(stu_list)
+str_dict = ast.literal_eval(str1)
 print(type(str_dict))

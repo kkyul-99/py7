@@ -3,7 +3,7 @@
 # [['안녕','hello'],['사랑','love'],['감사','thank']]
 
 a_list = []
-f = open("C:/down/bbb.txt","r",encoding="utf8")
+f = open("C:/down/aaa.txt","r")
 while True:
     txt = f.readline()  
     if txt == "": break
@@ -12,7 +12,7 @@ f.close()
 
 print(a_list)
 
-# f = open("C:/down/aaa.txt","r",encoding="utf8")
+# f = open("C:/down/aaa.txt","r")
 # # readline() : 1줄씩 가져오기
 # txt = f.readline()  
 # # txt = "1,홍길동,100,100,100,300,100.00,0"
